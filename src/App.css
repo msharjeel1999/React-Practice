@@ -38,7 +38,8 @@
   }
 }
 
-span {
+.views,
+.channel {
   font-size: 15px;
 }
 
