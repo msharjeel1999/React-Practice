@@ -37,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+span {
+  font-size: 15px;
+}
+
+.videotitle {
+  font-size: 26px;
+  font-weight: 600;
+}
