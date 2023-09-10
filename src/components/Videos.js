@@ -1,7 +1,7 @@
 import React from 'react'
 import verifiedBadge from '../../src/pictures/verifiedBadge.png';
 
-export default function Videos({ channelName = "Muhammad Sharjeel", isChannelVerified, videoThumbnail, videoTitle, videoViews, videoUploaded }) {
+export default function Videos({ channelName = "Muhammad Sharjeel", isChannelVerified, videoThumbnail, videoTitle, videoViews, videoUploaded, children }) {
 
     return (
         <div className="col-md-3">
@@ -10,6 +10,9 @@ export default function Videos({ channelName = "Muhammad Sharjeel", isChannelVer
                 <div className='videotitle'>{videoTitle}</div>
                 <span className="channel"> {channelName}{isChannelVerified && <img src={verifiedBadge} alt='verifiedBadge' className='verifiedBadge'></img>}</span>
                 <span className="views">{videoViews} Views • {videoUploaded} ago</span>
+                <div>
+                    {children}
+                </div>
             </div>
         </div>
     )
