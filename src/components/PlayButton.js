@@ -16,7 +16,7 @@ export default function PlayButton({ onPlay, onPause, currentlyPlayingStatus = f
 
     return (
         <>
-            <button type='submit' className='btn btn-outline-light' onClick={handleOnClick} >{children}</button>
+            <button type='submit' className='btn btn-outline-light' onClick={handleOnClick}>{children}</button>
         </>
     )
 }
