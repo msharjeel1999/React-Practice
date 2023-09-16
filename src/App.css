@@ -53,3 +53,11 @@
   width: 20px;
   margin-top: -3px;
 }
+
+.addNew_btn {
+  font-weight: 700;
+  width: 25%;
+  height: 5vh;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 20px;
+}

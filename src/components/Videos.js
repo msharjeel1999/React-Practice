@@ -14,6 +14,7 @@ export default function Videos({ channelName = "Muhammad Sharjeel", isChannelVer
                     {children}
                 </div>
             </div>
+            <br />
         </div>
     )
 }
